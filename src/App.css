@@ -9,7 +9,9 @@ body {
 }
 .header {
   width: 100%;
+
   height: 100vh;
+
   background: #1f2235;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,6 +24,7 @@ body {
   top: 0;
   background: #1f2235;
   z-index: 1;
+
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 .about {
@@ -56,6 +59,7 @@ body {
 /* Helpers */
 .container {
   width: 100%;
+
   margin: 0 auto;
 }
 .bgMain {
@@ -509,5 +513,13 @@ body {
   .container {
     width: 100%;
     padding: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+  .header__content {
+    margin-top: -40%;
   }
 }
