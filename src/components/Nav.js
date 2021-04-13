@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./images/logo.png";
 import FormatAlignJustifyIcon from "@material-ui/icons/FormatAlignJustify";
+
 const Nav = () => {
   const [state, setState] = React.useState(true);
   return (
@@ -9,7 +10,7 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src={logo} alt="logo" />
+              <p className="portfolio_logo">ᴍʏ ᴘᴏʀᴛꜰᴏʟɪᴏ</p>
             </div>
           </ul>
           {state ? (

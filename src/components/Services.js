@@ -7,14 +7,7 @@ import airline from "./images/airline.png";
 import netflix from "./images/netflix.png";
 import myweb from "./images/ab.jpg";
 import GitHubIcon from "@material-ui/icons/GitHub";
-// import {
-//   FaGithub,
-//   FaCamera,
-//   FaCircleNotch,
-//   FaApple,
-//   FaFileVideo,
-//   FaSearchDollar,
-// } from "react-icons/fa";
+
 const Services = () => {
   const [header] = React.useState({
     mainHeader: "Project",
@@ -31,36 +24,42 @@ const Services = () => {
       icon: <GitHubIcon className="commonIcons" />,
       heading: "Netflix Clone",
       text: "",
+      url: "https://netlify-5b394.web.app",
     },
     {
       id: 2,
       image: blog,
       icon: <GitHubIcon className="commonIcons" />,
       heading: "Blog Website",
+      url: "",
     },
     {
       id: 3,
       image: airline,
       icon: <GitHubIcon className="commonIcons" />,
       heading: "Airlines Reservation",
+      url: "",
     },
     {
       id: 4,
       image: amazon,
       icon: <GitHubIcon className="commonIcons" />,
       heading: "Amazon Clone",
+      url: "https://my-813dd.web.app/",
     },
     {
       id: 5,
       icon: <GitHubIcon className="commonIcons" />,
       heading: "Portfolio Website",
       image: portfolio,
+      url: "",
     },
     {
       id: 6,
       icon: <GitHubIcon className="commonIcons" />,
       heading: "My webapp",
       image: myweb,
+      url: "",
     },
   ]);
   return (
@@ -84,7 +83,9 @@ const Services = () => {
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
                   <div className="services_btn">
-                    <button className="btn1">Live Demo</button>
+                    <a href={info.url}>
+                      <button className="btn1">Live Demo</button>
+                    </a>
                     <button className="btn1">View Source</button>
                   </div>
                 </div>

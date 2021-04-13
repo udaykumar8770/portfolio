@@ -5,19 +5,11 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import PinterestIcon from "@material-ui/icons/Pinterest";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
-// import {
-//   FaFacebookF,
-//   FaTwitter,
-//   FaPinterest,
-//   FaInstagram,
-//   FaPlay,
-// } from "react-icons/fa";
+
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Uday Kumar",
-    text:
-      "i,m Uday, professional web developer with long time \
-    experience in this field​",
+    text: "A web developer focused on crafting great web experiences",
     image: profile,
   });
   return (
@@ -45,7 +37,7 @@ const Banner = () => {
                 <p>{state.text}</p>
                 <div className="header__buttons">
                   <a href="" className="btn btn-outline">
-                    My Portfolio
+                    My Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;
                   <a href="" className="btn btn-smart">

@@ -30,13 +30,14 @@ const About = () => {
             <div className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p1">
-                I am a BCA Student. I am very passionate about web designing and
-                I am working on it from past two years. I am very good
-                learner.And I love to learn new things.
+                Hi! I am Uday Kumar, a web designer/developer focused on
+                crafting great web experiences.
               </div>
               <div className="about__info-p2">
-                nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                sem turpis porta sem turpis quis leo. Nulla in feugiat elit
+                Designing and Coding have been my passion since the days I
+                started working with computers but I found myself into web
+                design/development. I enjoy creating beautifully designed,
+                intuitive and functional websites.
               </div>
               <div className="info__contacts">
                 <div className="row">
