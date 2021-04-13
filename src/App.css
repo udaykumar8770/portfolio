@@ -52,6 +52,9 @@ body {
 
 .navbar__right {
   display: flex;
+  padding-top: 0;
+
+  justify-content: center;
   list-style-type: none;
 }
 .navbar__right li a {
@@ -415,7 +418,7 @@ body {
 @media (max-width: 968px) {
   .container {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .header__ul {
@@ -450,16 +453,23 @@ body {
 @media (max-width: 1130px) {
   .container {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
   }
 }
 @media (max-width: 765px) {
   .about__img img {
     display: block;
   }
+
   .container {
     width: 100%;
     padding: 0 50px;
+  }
+  .navbar__right {
+    display: none;
+  }
+  .navbar__righto {
+    display: "flex";
   }
   .services__box {
     width: 80%;
